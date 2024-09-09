@@ -35,7 +35,7 @@ menu.addEventListener("click", (e) => {
         top: 0,
         behavior: "smooth"
     })
-    setTimeout(() => {
+   // setTimeout(() => {
     document.body.style.overflow = "hidden";
     navMenu.style.animation = "d-menu 650ms forwards";
     navMenuUL.style.animation = "t-menu 650ms forwards";
@@ -51,7 +51,7 @@ menu.addEventListener("click", (e) => {
         tag.style.animation = "m-tag 650ms 250ms forwards";
         tag.style.transform = "rotateX(90deg)";
     })
-}, 500);
+//}, 500);
 })
 
 close.addEventListener("click", (e) => {
