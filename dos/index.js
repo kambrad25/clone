@@ -136,7 +136,7 @@ window.addEventListener("scroll", (e) => {
 
         let speedList = [speedTitle, speedTag];
 
-    if ((speedTop + 300) < height) {
+    if ((speedTop + 500) < height) {
         for (let i = 0; i < speedList.length; ++i) 
             speedList[i].classList.add("opac");
     } else {
