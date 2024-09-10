@@ -185,7 +185,7 @@ window.addEventListener("scroll", (e) => {
         height = window.innerHeight;
 
     if (carouselTop < height) {
-        //header.style.visibility = "hidden";
+        header.style.visibility = "hidden";
         document.body.classList.add("body-color-2");
         dofument.body.classList.remove("body-color-1");
     } else {
