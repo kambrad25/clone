@@ -519,7 +519,6 @@ input:focus
 .box {
     /* max-width: calc(100% - 20rem); */
     overflow: hidden;
-    max-width: 100%;
     mask: linear-gradient(90deg, transparent, white 10% 90%, transparent);
     -webkit-mask: linear-gradient(90deg, transparent, white 10% 90%, transparent);
     ;
