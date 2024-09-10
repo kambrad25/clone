@@ -170,7 +170,6 @@ window.addEventListener("scroll", (e) => {
         header.style.transition = "none";
         powerList.forEach(power => power.classList.add("opac"));
 
-        header.style.visibility = "visible";
 
     } else {
         document.body.classList.remove("body-color-1");
@@ -186,7 +185,11 @@ window.addEventListener("scroll", (e) => {
 
     if (carouselTop < height) {
         document.body.classList.add("body-color-2");
-    } 
+        document.body.classList.remove("body-color-1");
+        header.style.backgroundColor = "black";
+    } else {
+    document.body.classList.remove("body-color-2");
+    }
 })
 
 
