@@ -189,7 +189,7 @@ window.addEventListener("scroll", (e) => {
         body.classList.add("body-color-2")
     } else {
         body.classList.remove("body-color-2");
-        hero.style.backgroundColor = "red";
+        hero.style.backgroundColor = "black";
     }
 })
 
