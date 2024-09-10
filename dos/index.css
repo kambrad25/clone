@@ -663,9 +663,11 @@ input:focus
 
 @media screen and (min-width: 320px)
 {
+    /*
     .hero {
         background: red;
     }
+    */
     header {
         max-width: 100%;
     }
