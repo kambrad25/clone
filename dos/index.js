@@ -186,10 +186,8 @@ window.addEventListener("scroll", (e) => {
 
     if (carouselTop < height) {
         body.classList.add("body-color-2");
-        document.documentElement.classList.add("body-color-2");
     } else {
         body.classList.remove("body-color-2");
-        document.documentElement.classList.remove("body-color-2");
     }
 })
 
