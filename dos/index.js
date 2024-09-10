@@ -166,8 +166,8 @@ window.addEventListener("scroll", (e) => {
     // if ((powerTop + 500)< height) {
     if (powerTop < height) {
         document.body.classList.add("body-color-1");
-        header.style.backgroundColor = "transparent";
-        header.style.transition = "none";
+        // header.style.backgroundColor = "transparent";
+        // header.style.transition = "none";
         powerList.forEach(power => power.classList.add("opac"));
 
 
