@@ -165,14 +165,14 @@ window.addEventListener("scroll", (e) => {
         let powerList = [powerTitle, powerTag]
     // if ((powerTop + 500)< height) {
     if (powerTop < height) {
-        document.documentElement.classList.add("body-color-1");
-        // header.style.backgroundColor = "transparent";
-        // header.style.transition = "none";
+        document.body.classList.add("body-color-1");
+        header.style.backgroundColor = "transparent";
+        header.style.transition = "none";
         powerList.forEach(power => power.classList.add("opac"));
 
 
     } else {
-        document.documentElement.classList.remove("body-color-1");
+        document.body.classList.remove("body-color-1");
 
         powerList.forEach(power => power.classList.remove("opac"));
     }
@@ -185,9 +185,10 @@ window.addEventListener("scroll", (e) => {
     const body = document.querySelector("body");
 
     if (carouselTop < height) {
-        document.documentElement.classList.add("body-color-2");
+        document.body.classList.add("body-color-2");
+
     } else {
-        document.documentElement.classList.remove("body-color-2");
+        document.body.classList.remove("body-color-2");
     }
 })
 
