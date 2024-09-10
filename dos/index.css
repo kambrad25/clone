@@ -662,10 +662,6 @@ main
 
 @media screen and (min-width: 320px)
 {
-    .hero 
-    {
-        background-color: red;
-    }
     header {
         max-width: 100%;
     }
