@@ -179,7 +179,7 @@ window.addEventListener("scroll", (e) => {
 })
 
 
-window.addEventListener("scroll", (e) => {
+/*window.addEventListener("scroll", (e) => {
     let carouselTop = carousel.getBoundingClientRect().top,
         height = window.innerHeight;
 
@@ -191,7 +191,7 @@ window.addEventListener("scroll", (e) => {
     document.body.classList.remove("body-color-2");
     }
 })
-
+*/
 
 let slideChildren = Array.from(slides.children);
 
