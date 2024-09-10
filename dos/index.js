@@ -185,8 +185,10 @@ window.addEventListener("scroll", (e) => {
     const body = document.querySelector("body");
 
     if (carouselTop < height) {
-        body.style.backgroundColor = "blue";
-    } 
+        body.style.backgroundColor = "transparent";
+    } else {
+        body.style.backgroundColor = "";
+    }
 })
 
 
