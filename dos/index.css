@@ -15,6 +15,7 @@ html
 {
     font-size: 62.5%;
     height:100%;
+    background-color: white;
 }
 body {
     font-size: 1.6rem;
@@ -30,8 +31,8 @@ body {
     background-color: orange;
 }
 .body-color-2 {
-    background-color: white;
-    color: black;
+    background-color: yellow;
+    color: white;
 }
 img {
     max-width: 100%;
