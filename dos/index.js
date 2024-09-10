@@ -185,9 +185,11 @@ window.addEventListener("scroll", (e) => {
     const body = document.querySelector("body");
 
     if (carouselTop < height) {
+        hero.style.background = "white";
         document.body.classList.add("body-color-2");
 
     } else {
+        hero.style.background = "red";
         document.body.classList.remove("body-color-2");
     }
 })
