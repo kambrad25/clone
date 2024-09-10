@@ -165,32 +165,32 @@ window.addEventListener("scroll", (e) => {
         let powerList = [powerTitle, powerTag]
     // if ((powerTop + 500)< height) {
     if (powerTop < height) {
-        document.body.classList.add("body-color-2");
+        document.body.classList.add("body-color-1");
         header.style.backgroundColor = "transparent";
         header.style.transition = "none";
         powerList.forEach(power => power.classList.add("opac"));
 
 
     } else {
-        document.body.classList.remove("body-color-2");
+        document.body.classList.remove("body-color-1");
 
         powerList.forEach(power => power.classList.remove("opac"));
     }
 })
 
-/*
+
 window.addEventListener("scroll", (e) => {
     let carouselTop = carousel.getBoundingClientRect().top,
         height = window.innerHeight;
     const body = document.querySelector("body");
 
     if (carouselTop < height) {
-        body.style.backgroundColor = "transparent";
+        body.classList.add("body-color-2")
     } else {
-        body.style.backgroundColor = "";
+        body.classList.remove("body-color-2");
     }
 })
-*/
+
 
 
 let slideChildren = Array.from(slides.children);
