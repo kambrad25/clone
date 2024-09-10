@@ -185,29 +185,27 @@ window.addEventListener("scroll", (e) => {
     const body = document.querySelector("body");
 
     if (carouselTop < height) {
-        hero.style.backgroundColor = "white";
         body.classList.add("body-color-2")
     } else {
         body.classList.remove("body-color-2");
-        hero.style.backgroundColor = "black";
     }
 })
 
 
 
-let slideChildren = Array.from(slides.children);
+// let slideChildren = Array.from(slides.children);
 
-slideChildren.forEach(slide => {
-    const nodeDuplicate = slide.cloneNode(true);
-    nodeDuplicate.setAttribute("aria-hidden", true);
+// slideChildren.forEach(slide => {
+//     const nodeDuplicate = slide.cloneNode(true);
+//     nodeDuplicate.setAttribute("aria-hidden", true);
 
-    slides.appendChild(nodeDuplicate);
-});
+//     slides.appendChild(nodeDuplicate);
+// });
 
-let formulaChildren = Array.from(formula.children);
+// let formulaChildren = Array.from(formula.children);
 
-formulaChildren.forEach(form => {
-    const cloneForm = form.cloneNode(true);
-    cloneForm.setAttribute("aria-hidden", true);
-    formula.appendChild(cloneForm);
-})
+// formulaChildren.forEach(form => {
+//     const cloneForm = form.cloneNode(true);
+//     cloneForm.setAttribute("aria-hidden", true);
+//     formula.appendChild(cloneForm);
+// })
