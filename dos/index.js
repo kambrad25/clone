@@ -179,19 +179,19 @@ window.addEventListener("scroll", (e) => {
 })
 
 
-/*window.addEventListener("scroll", (e) => {
+window.addEventListener("scroll", (e) => {
     let carouselTop = carousel.getBoundingClientRect().top,
         height = window.innerHeight;
+    const body = document.querySelector("body");
 
     if (carouselTop < height) {
-        document.body.classList.add("body-color-2");
-        document.body.classList.remove("body-color-1");
-        header.style.backgroundColor = "black";
+        body.classList.add("body-color-2");
+        body.classList.remove("body-color-1");
     } else {
-    document.body.classList.remove("body-color-2");
+       body.classList.remove("body-color-2");
     }
 })
-*/
+
 
 let slideChildren = Array.from(slides.children);
 
