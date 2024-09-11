@@ -563,7 +563,8 @@ input:focus
     min-height: 35rem;
     border-radius: 10px;
     border: none;
-    box-shadow: 0 0 10px -3px;
+    box-shadow: 0 0 10px -3px black;
+    color: black;
     height: 0;
     position: relative;
     width: 25rem;
