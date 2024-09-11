@@ -527,7 +527,7 @@ input:focus
 .box > .slide {
     display: flex;
     width: max-content;
-    gap: 6;
+    gap: 6rem;
     /*white-space: nowrap;*/
     animation: slider 10s linear infinite;
     color: white;
