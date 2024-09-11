@@ -688,7 +688,9 @@ input:focus
     {
         animation: btn-width 650ms forwards;
     }
-
+    .box > .slide {
+        width: max-content;
+    }
     @keyframes btn-width {
         0% {
             width: 0%;
