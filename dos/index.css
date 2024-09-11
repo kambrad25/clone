@@ -526,8 +526,8 @@ input:focus
 }
 .box > .slide {
     display: flex;
-    gap: 10rem;
     width: max-content;
+    gap: 6;
     /*white-space: nowrap;*/
     animation: slider 10s linear infinite;
     color: white;
@@ -538,7 +538,7 @@ input:focus
 
 @keyframes slider {
     to {
-        transform: translate(calc(-50% - 5rem));
+        transform: translate(calc(-50% - 3rem));
     }
 }
 
