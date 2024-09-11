@@ -538,7 +538,7 @@ input:focus
 
 @keyframes slider {
     to {
-        transform: translate(calc(-50% - 3rem));
+        transform: translate(calc(-50% - 1.5rem));
     }
 }
 
