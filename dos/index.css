@@ -530,7 +530,7 @@ input:focus
     width: max-content;
     /*white-space: nowrap;*/
     animation: slider 10s linear infinite;
-    color: black;
+    color: white;
 }
 .slide-title {
     font-size: 8rem;
