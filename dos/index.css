@@ -575,9 +575,10 @@ input:focus
 .form-title {
     font-size: 2rem;
     font-weight: 400;
-    border-bottom: 3px solid;
+    border-bottom: 3px solid black;
     padding: 3rem 0;
     text-align: center;
+    color: black;
 }
 .form-img-wrapper
 {
